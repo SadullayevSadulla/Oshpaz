@@ -3,7 +3,7 @@ const Header = () =>{
     return<>
      <header>
         <div className="header_note container">
-            <div className="header_left">
+                <div className="header_left">
                 <img src="./public/Logo.svg" alt="logo" />
             </div>
             <div className="header_right">

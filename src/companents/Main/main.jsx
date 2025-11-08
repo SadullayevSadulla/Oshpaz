@@ -26,7 +26,7 @@ const Main = () => {
                         <div className="main2">
                             <img src="./public/Photo-base.svg" alt="Restaurant" />
                             <div></div>
-                            <img src="/Group%2029.svg" alt="img" className="bir" />
+                            <img src="./public/Group%2029.svg" alt="img" className="bir" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
