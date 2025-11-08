@@ -24,30 +24,30 @@ const Main = () => {
                 >
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="./public/Photo-base.svg" alt="Restaurant" />
+                            <img src="/img/Photo-base.svg" alt="Restaurant" />
                             <div></div>
-                            <img src="./public/Group%2029.svg" alt="img" className="bir" />
+                            <img src="/img/Group%2029.svg" alt="img" className="bir" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="./public/Photo-base1.svg" alt="Restaurant" />
+                            <img src="/img/Photo-base1.svg" alt="Restaurant" />
                             <div></div>
-                            <img src="./public/Union.svg" alt="img" className="bir" />
+                            <img src="/img/Union.svg" alt="img" className="bir" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="./public/Photo-base2.svg" alt="Restaurant" />
+                            <img src="/img/Photo-base2.svg" alt="Restaurant" />
                             <div></div>
-                            <img src="./public/Union1.svg" alt="img" className="bir" />
+                            <img src="/img/Union1.svg" alt="img" className="bir" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="./public/Photo-base2 (2).svg" alt="Restaurant" />
+                            <img src="/img/Photo-base2 (2).svg" alt="Restaurant" />
                             <div></div>
-                            <img src="./public/Union3.svg" alt="img"  className="bir"/>
+                            <img src="/img/Union3.svg" alt="img"  className="bir"/>
                         </div>
                     </SwiperSlide>
                 </Swiper>

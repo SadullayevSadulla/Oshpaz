@@ -39,27 +39,27 @@ const MainYer = () => {
                 >
                     <SwiperSlide>
                         <div className="yer-slide">
-                            <img src="./public/Rectangle 10.svg" alt="Chef" />
+                            <img src="/img/Rectangle 10.svg" alt="Chef" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="yer-slide">
-                            <img src="./public/Rectangle 11.svg" alt="Chefs" />
+                            <img src="/img/Rectangle 11.svg" alt="Chefs" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="yer-slide">
-                            <img src="./public/Rectangle 12.svg" alt="Chef" />
+                            <img src="/img/Rectangle 12.svg" alt="Chef" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="yer-slide">
-                            <img src="./public/Rectangle 13.svg" alt="Fresh" />
+                            <img src="/img/Rectangle 13.svg" alt="Fresh" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="yer-slide">
-                            <img src="./public/Rectangle 11.svg" alt="Fresh" />
+                            <img src="/img/Rectangle 11.svg" alt="Fresh" />
                         </div>
                     </SwiperSlide>
                 </Swiper>

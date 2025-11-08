@@ -7,14 +7,14 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="footer-logo">
                         <div className="header_left">
-                            <img src="./public/Logo3.svg" alt="logo" />
+                            <img src="/img/Logo3.svg" alt="logo" />
                         </div>
                         <div className="app-stores">
                             <a href="#" className="store-button">
-                                <img src="./public/app-img1-1.svg" alt="App Store" />
+                                <img src="/img/app-img1-1.svg" alt="App Store" />
                             </a>
                             <a href="#" className="store-button">
-                                <img src="./public/app-img2-12.svg" alt="Google Play" />
+                                <img src="/img/app-img2-12.svg" alt="Google Play" />
                             </a>
                         </div>
                     </div>
@@ -55,13 +55,13 @@ const Footer = () => {
                 <div className="footer-bottom">
                     <div className="social-links">
                         <a href="#" className="social-link">
-                            <img src="./public/instagram.svg" alt="Instagram" />
+                            <img src="/img/instagram.svg" alt="Instagram" />
                         </a>
                         <a href="#" className="social-link">
-                            <img src="./public/twitter.svg" alt="Twitter" />
+                            <img src="/img/twitter.svg" alt="Twitter" />
                         </a>
                         <a href="#" className="social-link">
-                            <img src="./public/facebook.svg" alt="Facebook" />
+                            <img src="/img/facebook.svg" alt="Facebook" />
                         </a>
                     </div>
                     <div className="footer-legal">
