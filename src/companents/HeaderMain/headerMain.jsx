@@ -20,7 +20,7 @@ const HeaderMain = () =>{
                 </div>
             </div>
                 <div className="header_main_right">
-                    <img src="/img/Photo.png" alt="img" />
+                    <img src="/public/Photo.png" alt="img" />
                 </div>
         </div>
     </section>
