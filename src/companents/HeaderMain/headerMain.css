@@ -1,0 +1,156 @@
+:root {
+    --titleFont: 'Open Sans';
+    --textFont: 'Raleway';
+}
+
+.header_main {
+    display: flex;
+    gap: 10px;
+}
+
+.header_main_h1 h1 {
+    font-family: var(--titleFont);
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 64px;
+    color: #212121;
+    margin-block: 120px 88px;
+    max-width: 534px;
+}
+
+.header_main_left_button {
+    display: flex;
+    gap: 24px;
+}
+
+.Button4 {
+    width: 118px;
+    height: 72px;
+    background-color: white;
+    border: 2px solid #FFE145;
+    transition: 0.3s ease-out;
+}
+
+.Button4:hover {
+    background: #FFF7CC;
+    border: none;
+}
+
+.Button4:active {
+    background: none;
+    border: 2px solid #FFE145;
+}
+
+.Button4 h1 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--textFont);
+    margin-top: 10px;
+}
+
+.Button4 p {
+    margin-top: -10px;
+    font-family: var(--textFont);
+    color: #3F4255;
+}
+
+.Button5 {
+    width: 118px;
+    height: 72px;
+    background-color: white;
+    border: 2px solid #FFE145;
+    transition: 0.3s ease-out;
+}
+
+.Button5:hover {
+    background: #FFF7CC;
+    border: none;
+}
+
+.Button5:active {
+    background: none;
+    border: 2px solid #FFE145;
+}
+
+.Button5 h1 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--textFont);
+}
+
+.Button5 p {
+    margin-top: -15px;
+    font-family: var(--textFont);
+    color: #3F4255;
+}
+
+.header_main_right img {
+    width: 773px;
+    height: 676px;
+
+    animation: headImg 0.7s ease-in-out;
+}
+
+@keyframes headImg {
+    from {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-width:1110px) {
+    .header_main_right img {
+        width: 600px;
+        height: 500px;
+        animation: headImg 0.7s ease-in-out;
+    }
+}
+
+@media (max-width:1000px) {
+    .header_main_right img {
+        width: 400px;
+        height: 330px;
+        margin-top: 80px;
+    }
+
+}
+
+@media (max-width:730px) {
+    .header_main_right img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        margin-top: 130px;
+    }
+}
+
+@media (max-width:500px) {
+    .header_main_right img {
+        margin-top: 80px;
+    }
+
+    .header_main_h1 h1 {
+        font-size: 36px;
+        line-height: 42px;
+        margin-block: 80px 40px;
+    }
+}
+
+@media (max-width:330px) {
+    .header_main_h1 h1 {
+        max-width: 130px;
+    }
+
+    .header_main_right img {
+        width: 120px;
+        height: 100px;
+        margin-left: -120px;
+    }
+}
+

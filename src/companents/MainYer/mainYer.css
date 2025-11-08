@@ -1,0 +1,43 @@
+:root {
+    --titleFont: 'Open Sans';
+    --textFont: 'Raleway';
+}
+
+.yer-title {
+    font-family: var(--textFont);
+    font-weight: 300;
+    font-size: 36px;
+    color: #313030;
+    margin-bottom: 50px;
+}
+
+.yer-title span {
+    font-family: var(--textFont);
+    font-weight: 300;
+    font-size: 36px;
+    color: #9093A6;
+}
+
+.yer-slide {
+    box-shadow: 0 8px 22px rgba(31, 45, 61, 0.06);
+    border: 1px solid rgba(31, 45, 61, 0.03);
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.yer-slide:hover {
+    box-shadow: 0 12px 30px rgba(31, 45, 61, 0.1);
+    transform: translateY(-4px);
+}
+.yer-slide:active {
+    box-shadow: 0 6px 18px rgba(31, 45, 61, 0.06);
+    transform: translateY(0);
+}
+
+@media (max-width:500px) {
+    .yer-slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

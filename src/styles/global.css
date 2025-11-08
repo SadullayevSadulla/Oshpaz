@@ -1,0 +1,7 @@
+@media (max-width:1110px) {
+    .header_main_right img {
+        width: 600px;
+        height: 500px;
+        animation: headImg 0.7s ease-in-out;
+    }
+}

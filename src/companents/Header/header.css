@@ -1,0 +1,152 @@
+:root {
+    --titleFont: 'Open Sans';
+    --textFont: 'Raleway';
+}
+
+.header_note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    border-bottom: 1px solid #E0E0E0;
+    background: #fff;
+    flex-wrap: nowrap;
+}
+
+.header_left img {
+    display: block;
+    height: 36px;
+    width: auto;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: nowrap;
+}
+
+.Button1 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    min-width: 72px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    color: #9093A6;
+    font-family: var(--textFont);
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 180ms ease, color 180ms ease;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.Button1:hover {
+    background-color: rgba(18, 24, 38, 0.04);
+}
+
+.Button1:active {
+    background-color: rgba(18, 24, 38, 0.06);
+}
+
+.Button2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    color: #9093A6;
+    cursor: pointer;
+    transition: background-color 180ms ease;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.Button2:hover {
+    background-color: rgba(18, 24, 38, 0.04);
+}
+
+.Button2:active {
+    background-color: rgba(18, 24, 38, 0.06);
+}
+
+.Button3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    color: #9093A6;
+    cursor: pointer;
+    transition: background-color 180ms ease;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.Button3:hover {
+    background-color: rgba(18, 24, 38, 0.04);
+}
+
+.Button3:active {
+    background-color: rgba(18, 24, 38, 0.06);
+}
+
+.header_note svg,
+.header_right svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+    fill: currentColor;
+}
+
+.Button1 img,
+.Button2 img,
+.Button3 img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.Button1 p,
+.Button2 p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 14px;
+    color: inherit;
+}
+
+
+.Button1 p {
+    margin-left: 6px;
+}
+
+@media (max-width:1110px) {
+    .header_main_right img {
+        width: 600px;
+        height: 500px;
+        animation: headImg 0.7s ease-in-out;
+    }
+}
+
+@media (max-width:475px) {
+    .header_left img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media (max-width:355px) {
+    .header_left img {
+        width: 100px;
+        height: auto;
+    }
+}
