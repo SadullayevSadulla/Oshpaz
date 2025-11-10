@@ -3,12 +3,15 @@
     --textFont: 'Raleway';
 }
 
+header {
+    border-bottom: 1px solid #E0E0E0;
+}
+
 .header_note {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 16px;
-    border-bottom: 1px solid #E0E0E0;
     background: #fff;
     flex-wrap: nowrap;
 }

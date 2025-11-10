@@ -63,7 +63,7 @@ const MainDas = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="/public/Vector1.svg" alt="Restaurant" />
+                            <img src="/img/Vector1.svg" alt="Restaurant" />
                             <div></div>
                             <p>Salads</p>
                         </div>
@@ -77,35 +77,35 @@ const MainDas = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="/public/Vector2.svg" alt="Restaurant" />
+                            <img src="/img/Vector2.svg" alt="Restaurant" />
                             <div></div>
                             <p>Pasta</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="/public/pizza.svg" alt="Restaurant" />
+                            <img src="/img/pizza.svg" alt="Restaurant" />
                             <div></div>
                             <p>Pasta</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="/public/Vector2.svg" alt="Restaurant" />
+                            <img src="/img/Vector2.svg" alt="Restaurant" />
                             <div></div>
                             <p>Pasta</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="/public/Vector1.svg" alt="Restaurant" />
+                            <img src="/img/Vector1.svg" alt="Restaurant" />
                             <div></div>
                             <p>Pasta</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="main2">
-                            <img src="/public/pizza.svg" alt="Restaurant" />
+                            <img src="/img/pizza.svg" alt="Restaurant" />
                             <div></div>
                             <p>Pasta</p>
                         </div>

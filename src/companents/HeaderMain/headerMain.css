@@ -86,9 +86,8 @@
 }
 
 .header_main_right img {
-    width: 773px;
-    height: 676px;
-
+    width: 650px;
+    height: 550px;
     animation: headImg 0.7s ease-in-out;
 }
 

@@ -74,3 +74,11 @@
         gap: 30px;
     }
 }
+
+.main .mySwiper .swiper-pagination-bullet {
+    background: rgba(255, 225, 69, 0.35);
+}
+
+.main .mySwiper .swiper-pagination-bullet-active {
+    background: #FFE145;
+}
