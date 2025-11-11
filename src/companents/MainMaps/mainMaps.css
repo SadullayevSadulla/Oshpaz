@@ -53,9 +53,10 @@
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:300px) {
     .maps_container iframe{
-        width: 200px;
+        width: 250px;
         height: 180px;
+        margin-left: 10px;
     }
 }

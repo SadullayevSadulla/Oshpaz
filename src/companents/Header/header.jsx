@@ -1,5 +1,13 @@
 import "./header.css"
+import { useState } from "react"
+
 const Header = () =>{
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return<>
      <header>
         <div className="header_note container">
@@ -15,9 +23,20 @@ const Header = () =>{
                     <img src="/img/cart.svg" alt="icon" />
                     <p>0</p>
                 </button>
-                <button className="Button3">
+                <button className="Button3" onClick={toggleMenu}>
                     <img src="/img/ic-menu-navigation.svg" alt="icon" />
                 </button>
+                {isMenuOpen && (
+                    <div className="burger-menu">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/restaurants">Restaurants</a></li>
+                            <li><a href="/delivery">Delivery Info</a></li>
+                            <li><a href="/specialities">Specialities</a></li>
+                        </ul>
+                    </div>
+                )}
             </div>
         </div>
      </header>

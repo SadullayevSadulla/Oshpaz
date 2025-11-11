@@ -120,12 +120,59 @@
 
 }
 
-@media (max-width:730px) {
+@media (max-width:725px) {
+
+    .header_main {
+        display: flex;
+        gap: 0px;
+    }
+
     .header_main_right img {
-        width: 100%;
+        width: 370px;
+        height: 410px;
         max-width: 320px;
         height: auto;
         margin-top: 130px;
+    }
+    .header_main_h1 h1 {
+        font-size: 42px;
+        line-height: 48px;
+        margin-block: 80px 40px;
+    }
+}
+
+
+@media (max-width:570px) {
+    .header_main_h1 h1 {
+        max-width: 130px;
+    }
+
+    .header_main_right img {
+        width: 130px;
+        height: 110px;
+        margin-left: -100px;
+    }
+}
+@media (max-width:560px) {
+    .header_main_h1 h1 {
+        max-width: 130px;
+    }
+
+    .header_main_right img {
+        width: 140px;
+        height: 120px;
+        margin-left: -100px;
+    }
+}
+@media (max-width:510px) {
+    .header_main_h1 h1 {
+        max-width: 170px;
+    }
+
+    .header_main_right img {
+        width: 140px;
+        height: 120px;
+        margin-left: -100px;
     }
 }
 
@@ -140,16 +187,45 @@
         margin-block: 80px 40px;
     }
 }
-
-@media (max-width:330px) {
-    .header_main_h1 h1 {
-        max-width: 130px;
+@media (max-width:260px) {
+    .header_main {
+        flex-direction: column;
+        gap: 10px;
     }
 
     .header_main_right img {
-        width: 120px;
-        height: 100px;
-        margin-left: -120px;
+        width: 100px;
+        height: 85px;
+        margin-top: -340px;
+        margin-left: 100px;
+    }
+
+    .header_main_h1 h1 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-block: 40px 20px;
+        max-width: 100px;
+    }
+
+    .header_main_left_button {
+        gap: 12px;
+    }
+
+    .Button4,
+    .Button5 {
+        width: 90px;
+        height: 60px;
+    }
+
+    .Button4 h1,
+    .Button5 h1 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .Button4 p,
+    .Button5 p {
+        font-size: 10px;
+        margin-top: -5px;
     }
 }
-
