@@ -1,6 +1,5 @@
 import Footer from "./Footer/footer";
 import Header from "./Header/header"
-import HeaderDs from "./HeaderDs/headerDs";
 import HeaderMain from "./HeaderMain/headerMain";
 import Main from "./Main/main";
 import MainDas from "./MainDas/mainDas";
@@ -14,7 +13,6 @@ const AllCompanents = () =>{
      <div className="wrap">
         <Header/>
         <HeaderMain/>
-        <HeaderDs/>
         <Main/>
         <MainDs/>
         <MainDas/>

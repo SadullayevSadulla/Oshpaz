@@ -44,7 +44,7 @@ const MainYu = () => {
     }, []);
 
     return (
-        <section className="mainYu-section container" ref={sectionRef}>
+        <section className="mainYu-section" ref={sectionRef}>
             <div className="main_yu container">
                 <div className="main_yu1">
                     <div className="main_your">1</div>

@@ -16,6 +16,10 @@
     gap: 20px;
 }
 
+.maindf{
+    display: flex;
+}
+
 .mainDs_left h1 {
     font-family: var(--titleFont);
     font-size: 36px;
@@ -32,6 +36,8 @@
 }
 
 .mainDs_right {
+    margin-top: 10px;
+    margin-left: 40px;
     display: flex;
     gap: 4px;
 }
