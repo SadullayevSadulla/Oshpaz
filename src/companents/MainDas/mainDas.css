@@ -1,32 +1,55 @@
-.mainDas.main.container {
-    padding: 28px 0;
+:root {
+    --titleFont: 'Open Sans', sans-serif;
+    --textFont: 'Raleway', sans-serif;
+    --mainText: #3F4255;
+    --grayText: #8B8FA3;
+    --bgLight: #F2F4FA;
+    --shadowColor: rgba(31, 45, 61, 0.08);
+}
+
+.mainDas.container {
+    padding: 40px 0;
 }
 
 .mainDas .main1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .mainDas .main1 h1 {
     margin: 0;
-    font-size: 28px;
-    color: #3f4255;
+    font-size: 32px;
+    color: var(--mainText);
     font-weight: 400;
+    font-family: var(--titleFont);
 }
 
 .mainDas .main1 button {
-    background: #f1f3f8;
+    background-color: var(--bgLight);
     border: none;
-    padding: 8px 12px;
+    padding: 10px 20px;
     border-radius: 8px;
-    color: #8b8fa3;
-    font-size: 13px;
+    color: var(--grayText);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--textFont);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mainDas .main1 button:hover {
+    background-color: #dfe3f1;
+    color: #3f4255;
+}
+
+.mainDas .main1 button:active {
+    background-color: #c9cce0;
 }
 
 .categories-swiper {
-    padding-bottom: 18px;
+    padding-bottom: 24px;
 }
 
 .categories-swiper .swiper-slide {
@@ -37,74 +60,41 @@
 
 .categories-swiper .main2 {
     width: 100px;
-    height: 100px;
+    height: 110px;
     background: #fff;
     border-radius: 10px;
+    box-shadow: 0 8px 22px var(--shadowColor);
+    border: 1px solid rgba(31, 45, 61, 0.04);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 8px 22px rgba(31, 45, 61, 0.06);
-    border: 1px solid rgba(31, 45, 61, 0.03);
-    margin-top: 30px;
     cursor: pointer;
-    transition: 0.2s;
-}
-.categories-swiper .main2:hover {
-    box-shadow: 0 12px 30px rgba(31, 45, 61, 0.1);
-    transform: translateY(-4px);
-}
-.categories-swiper .main2:active {
-    box-shadow: 0 6px 18px rgba(31, 45, 61, 0.06);
-    transform: translateY(0);
-}
-
-.main1 button {
-    width: 118px;
-    height: 48px;
-    background-color: #F2F4FA;
-    color: #9093A6;
-    border: 2px solid #FFFFFF;
-    font-family: var(--textFont);
-    font-size: 16px;
-    font-weight: 700;
-}
-.main1 button:hover {
-    background-color: #D4D7E5;
-    transition: 0.2s;
-}
-.main1 button:active {
-    background-color: #C0C4D8;
-    transition: 0.2s;
-}
-
-.categories-swiper .main2 img {
-    width: 44px;
-    height: 44px;
-    object-fit: contain;
-}
-
-.categories-swiper .main2 .bir {
-    width: 18px;
-    height: 18px;
-    position: absolute;
-    opacity: 0.9;
-}
-
-
-.categories-swiper .swiper-slide .label {
-    margin-top: 8px;
-    font-size: 13px;
-    color: #6f7387;
-}
-
-.categories-swiper .main2 {
+    transition: 0.25s ease;
     position: relative;
 }
 
-.categories-swiper .main2::after {
-    display: block;
-    height: 18px;
+.categories-swiper .main2:hover {
+    box-shadow: 0 12px 30px rgba(31, 45, 61, 0.12);
+    transform: translateY(-4px);
+}
+
+.categories-swiper .main2:active {
+    transform: translateY(0);
+}
+
+.categories-swiper .main2 img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.categories-swiper .main2 p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #6F7387;
+    font-family: var(--textFont);
+    font-weight: 500;
 }
 
 .categories-swiper .swiper-button-prev,
@@ -113,11 +103,18 @@
     height: 40px;
     border-radius: 50%;
     background: #fff;
-    color: #8b8fa3;
-    box-shadow: 0 6px 18px rgba(31, 45, 61, 0.06);
+    color: var(--grayText);
+    box-shadow: 0 6px 18px rgba(31, 45, 61, 0.08);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.3s;
+}
+
+.categories-swiper .swiper-button-prev:hover,
+.categories-swiper .swiper-button-next:hover {
+    background: var(--bgLight);
+    color: #3f4255;
 }
 
 .categories-swiper .swiper-button-prev::after,
@@ -125,11 +122,45 @@
     font-size: 14px;
 }
 
-@media (max-width:720px) {
-    .mainDas .main2 img{
-        margin-top: 20px;
+@media (max-width: 768px) {
+    .mainDas .main1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
     }
-    .mainDas .main2 p{
-        margin-top: -50px;
+
+    .categories-swiper .main2 {
+        width: 90px;
+        height: 100px;
+    }
+
+    .categories-swiper .main2 img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainDas.container {
+        padding: 20px 0;
+    }
+
+    .mainDas .main1 h1 {
+        font-size: 24px;
+    }
+
+    .mainDas .main1 button {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    .categories-swiper .main2 {
+        width: 80px;
+        height: 90px;
+    }
+
+    .categories-swiper .main2 p {
+        font-size: 12px;
     }
 }

@@ -45,6 +45,9 @@
     box-shadow: 0px 2px 16px 0px #3C3E4A14;
     border-radius: 16px;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main2:hover {
@@ -61,24 +64,20 @@
     border-radius: 16px 16px 0 0;
 }
 
-.bir {
-    margin-top: 25px;
-    margin-left: 70px;
+.bir{
+    margin-top: 20px;
 }
-
-@media (max-width:730px) {
-    .main2 {
-        width: 250px;
-        height: 200px;
-        display: flex;
-        gap: 30px;
-    }
-}
-
 .main .mySwiper .swiper-pagination-bullet {
     background: rgba(255, 225, 69, 0.35);
 }
 
 .main .mySwiper .swiper-pagination-bullet-active {
     background: #FFE145;
+}
+
+@media (max-width:375px) {
+    .main2 {
+        width: 350px;
+        height: auto;
+    }
 }
